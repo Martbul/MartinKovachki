@@ -8,31 +8,30 @@ export default function Navigation() {
             <h1>Martin Kovachki</h1>
           </div>
           <div className="posittion">
-            <h3>Juior Developer</h3>
+            <h3>Junior Developer</h3>
           </div>
           <div className="summary">
             <p>
-              I build pixel-perfect, engaging, and accessible digital
-              experiences.
+              Looking to learn and develop
             </p>
           </div>
         </div>
 
-        <nav className="navigation">
+        {/* <nav className="navigation">
           <ul>
             <li className="nav-item">
-              <a to="/">About</a>
+              <a href="#about">About</a>
             </li>
 
             <li className="nav-item">
-              <a to="/post-app/create-app">Portfolio</a>
+              <a to="/post-app/create-app">Projects</a>
             </li>
 
             <li className="nav-item">
               <a to="/user/profile">Education</a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
         <div className="contacts">
         <ul className="socials" aria-label="Social media">
           <li className="linkToSocial">

@@ -22,7 +22,7 @@ export default function Projects() {
         <div className="project">
 
         <div className="title">
-          <h4>Projects</h4>
+          
         </div>
         <div className="content">
           <h5><a href="https://martbul.github.io/ALYST/">Alyst AI</a></h5>
@@ -30,7 +30,7 @@ export default function Projects() {
            Web app with the idea of Uber, but for groceries - people 
            deliverying groceries.
           </p>
-         <img src="../../../public/bind.png" alt="" />
+         <img src="../../public/images/img1.png" alt="err" />
          
         </div>
         </div>
@@ -40,7 +40,7 @@ export default function Projects() {
         <div className="project">
 
         <div className="title">
-          <h4>Projects</h4>
+          
         </div>
         <div className="content">
           <h5>Bind Delivery</h5>

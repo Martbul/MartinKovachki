@@ -8,7 +8,7 @@ export default function Experience() {
         </div>
         <div className="content">
           <p>
-           Looking to find my first job, that will give me experience in the software development field and where I can learn and develop.
+          On the hunt for my initial job, aiming to gain hands-on experience in software development and pursue learning and growth opportunities.
           </p>
         </div>
       </div>

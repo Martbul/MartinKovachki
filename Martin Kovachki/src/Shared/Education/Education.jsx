@@ -7,12 +7,12 @@ export default function Education() {
           <h4>Education</h4>
         </div>
         <div className="content">
-          <p>Currently studing in NPMG.</p>
+          <p>Currently studying in NPMG.</p>
           <p>
-            From November 2022 to March 2024 I studied in SoftUni with
-            Javascript. I can write frontend with React and Angular with
+            From November 2022 to March 2024 I studied in SoftUni on
+            Javascript path. I can write frontend with React and Angular with
             Typescript. Have skils in backend development with NodeJs and
-            Express.
+            Express. Have been working with databases like MongoDB and SQL.
           </p>
         </div>
       </div>

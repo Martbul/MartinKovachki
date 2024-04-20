@@ -1,0 +1,159 @@
+/* 
+  
+  header nav a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  header nav a:hover{
+    text-decoration: none;
+    color: #ffbd4a;
+  }
+  
+  @media(min-width:1200px){
+    header{
+      display: flex;
+      justify-content: space-between;
+      padding: 1.5em 2.5em;
+      
+    }
+  
+    header nav{
+      display: flex;
+      align-items: center;
+      padding-right: 3em;
+    }
+    header nav ul {
+      display: flex;
+  
+    }
+  
+    header nav li {
+      list-style: none outside;
+      padding: 0 1.3em;
+      font-size: 1.2em;
+      
+    }
+  
+  
+    
+    header nav a {
+      
+      font-size: 0.9em;
+      
+    }
+  
+    header nav a:hover {
+     
+      font-size: 0.9em;
+      transition: ease-in 0.3s;
+    }
+  
+    header nav a .active{
+      text-decoration: none;
+      color: #ffbd4a;
+      font-size: 0.9em;
+      
+    }
+    
+    .site-title{
+      display: flex;
+      justify-content: left;
+    }
+  
+    .site-title a{
+      text-decoration: none;
+      color:white;
+      margin-right: -8.8em;
+      padding-top: 0.8em;
+      font-size: 1.8em;
+     
+    }
+    
+  
+  }
+   */
+
+
+   .wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.8em;
+   }
+   .wrapper .upperHeader .title{
+    font-size: 1.6em;
+    color:#e2e8f0
+   }
+
+   .wrapper .upperHeader .posittion{
+    margin: 0.4em 0;
+   }
+
+   .wrapper .upperHeader .summary{
+    color:#8e9db2;
+    margin: 1em 0;
+    max-width: 20em;
+  }
+
+  @media (max-width: 1000px){
+     .wrapper .navigation{
+      display: none;
+
+  }
+  }
+  .wrapper .contacts .socials {
+    list-style-type: none;
+    display: flex;
+    gap: 1.4em;
+    margin: 1.4em 0;
+    
+   
+  }
+
+  .wrapper .contacts .socials li a{
+    text-decoration: none;
+    color:#8e9db2;
+  }
+  .wrapper .contacts .socials svg{
+    width: 1.8em;
+    text-decoration: none;
+  } 
+
+  .wrapper .contacts .socials .sr-only{
+    display: none;
+  }
+ 
+
+  @media(min-width:1000px){
+    .wrapper{
+      display: flex;
+      flex-direction: column;
+
+     }
+     .wrapper .upperHeader .title{
+      font-size: 2.2em;
+      color:#e2e8f0
+     }
+  
+     .wrapper .upperHeader .posittion{
+      margin: 1em 0;
+      font-size: 1.4em;
+     }
+  
+     .wrapper .upperHeader .summary{
+      color:#8e9db2;
+      margin: 1em 0;
+      max-width: 20em;
+      font-size: 1.2em;
+    }
+
+    .wrapper .navigation ul{
+      margin: 4.6em 0;
+      margin-bottom: 1em;
+      list-style-type: none;
+    }
+    .wrapper .navigation ul li{
+      margin: 1em 0;
+      font-size: 1.2em;
+    }
+  }

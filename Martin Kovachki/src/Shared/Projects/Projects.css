@@ -1,0 +1,17 @@
+.container .title h4{
+    font-size: 1.2em;
+    margin: 1.2em 0;
+}
+
+.container .content p{
+    color:#8e9db2;
+}
+.container .content h5:hover{
+    color:rgb(0, 169, 169);
+    cursor: pointer;
+    
+}
+
+.container .content img{
+    width: 10em;
+}

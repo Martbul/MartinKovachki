@@ -1,0 +1,45 @@
+body{
+    background-color: #0f172a;
+    
+}
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+
+.scrollerSide{
+    margin-top: 4.6em;
+}
+@media (min-width:1000px){
+    .mainSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: white;
+        padding: 1em 8em;
+        gap: 5em;
+       
+
+    }
+    .scrollerSide{
+        margin-top:0;
+        max-width: 44em;
+    }
+
+    .mainSection .staticSide {
+        
+        width: 25%;
+        height: 50vh; 
+        min-height: 200px;
+        
+       
+        position: sticky;
+        top: 20%;
+        min-width: 30em;
+    }
+
+   
+}

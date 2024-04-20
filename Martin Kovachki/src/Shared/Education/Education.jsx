@@ -1,0 +1,21 @@
+import "./Education.css";
+export default function Education() {
+  return (
+    <>
+      <div className="container">
+        <div className="title">
+          <h4>Education</h4>
+        </div>
+        <div className="content">
+          <p>Currently studing in NPMG.</p>
+          <p>
+            From November 2022 to March 2024 I studied in SoftUni with
+            Javascript. I can write frontend with React and Angular with
+            Typescript. Have skils in backend development with NodeJs and
+            Express.
+          </p>
+        </div>
+      </div>
+    </>
+  );
+}

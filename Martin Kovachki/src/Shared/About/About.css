@@ -6,6 +6,11 @@
 .container .content p{
     color:#8e9db2;
 }
+@media(max-width:1000px){
+    .about{
+        margin-bottom: 3em;
+    }
+}
 
 @media(min-width:1000px){
     .container .title {

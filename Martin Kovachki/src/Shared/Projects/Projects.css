@@ -1,17 +1,45 @@
+.container-border{
+    padding: 1em;
+    border:1px solid white;
+    border-radius: 1.4em;
+    -webkit-box-shadow: 21px 10px 5px 0px rgba(0,0,0,0.64);
+-moz-box-shadow: 21px 10px 5px 0px rgba(0,0,0,0.64);
+box-shadow: 21px 10px 5px 0px rgba(0,0,0,0.64);
+
+}
+
 .container .title h4{
     font-size: 1.2em;
     margin: 1.2em 0;
+}
+.container .title h1{
+text-decoration: underline;
 }
 
 .container .content p{
     color:#8e9db2;
 }
-.container .content h5:hover{
+.container .content h5{
+    font-size: 1.4em;
+}
+.container .content h5 a{
+    text-decoration: none;
+    color:white
+}
+.container .content h5 a:hover{
+    text-decoration: none;
     color:rgb(0, 169, 169);
     cursor: pointer;
     
 }
 
-.container .content img{
-    width: 10em;
+.container .project content h5{
+    font-size: 1.4em;
 }
+
+.project:hover{
+  
+    border-radius: 0.3em;
+    background-color: #141F38;
+}
+

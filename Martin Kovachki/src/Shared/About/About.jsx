@@ -12,7 +12,7 @@ export default function About() {
             Now, 2 years later I am looking for my first job with hopes for learning more and developing
             in the programing field.
             I know that I am only 17 but I think that in coding experience is the most importatnt plus working 
-            in a team, and the only way to get that is to get a job.
+            in a team.
           </p>
         </div>
       </div>

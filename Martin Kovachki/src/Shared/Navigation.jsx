@@ -101,7 +101,7 @@ export default function Navigation() {
           <li className="linkToSocial">
             <a
               className="block hover:text-slate-200"
-              href="https://twitter.com/bchiang7"
+              href="https://twitter.com/martbul01tyre"
               target="_blank"
               rel="noreferrer noopener"
               aria-label="Twitter (opens in a new tab)"

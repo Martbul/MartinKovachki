@@ -10,7 +10,7 @@ export default function Projects() {
         <div className="project">
           <div className="content">
             <h5>
-              <a href="https://martbul.github.io/angular-final-project/">
+              <a href="https://github.com/Martbul/angular-final-project">
                 SoftUni Final Project
               </a>
             </h5>

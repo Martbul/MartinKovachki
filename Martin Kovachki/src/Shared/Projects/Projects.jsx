@@ -98,6 +98,21 @@ export default function Projects() {
             </p>
           </div>
         </div>
+
+        <div className="project">
+          <div className="content">
+            <h5>
+              <a href="https://github.com/Martbul/CommentToxicity-Tracker">
+               AI Comment Toxicity Tracker
+              </a>
+            </h5>
+            <p>
+              This is an AI model that can evaluate emotions expressed ni comments. The AI can determine if 
+              someone's comment is agressive or hateful or positive or some other strong emotion
+              it.
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );

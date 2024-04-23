@@ -22,6 +22,11 @@ text-decoration: underline;
 .container .content h5{
     font-size: 1.4em;
 }
+
+.container .content h6{
+    font-size: 1.1em;
+    font-style: italic;
+}
 .container .content h5 a{
     text-decoration: none;
     color:white

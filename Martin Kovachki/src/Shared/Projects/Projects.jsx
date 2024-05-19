@@ -7,6 +7,22 @@ export default function Projects() {
           <h1>Projects</h1>
         </div>
 
+
+        <div className="project">
+          <div className="content">
+            <h5>
+              <a href="https://chat-app-m-kov.netlify.app/">Chat App</a>
+            </h5>
+            <h6>
+              GitHub reppo:{" "}
+              <a href="https://github.com/Martbul/Chat-App">
+              https://github.com/Martbul/Chat-App
+              </a>
+            </h6>
+            <p>First project with socket.io, used for live chatting</p>
+          </div>
+        </div>
+
         <div className="project">
           <div className="content">
             <h5>

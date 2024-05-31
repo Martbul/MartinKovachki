@@ -10,6 +10,21 @@ export default function Projects() {
         <div className="project">
           <div className="content">
             <h5>
+              <a href="https://chat-app-m-kov.netlify.app/">Chat App</a>
+            </h5>
+            <h6>
+              GitHub reppo:{" "}
+              <a href="https://github.com/Martbul/Chat-App">
+                https://github.com/Martbul/Chat-App
+              </a>
+            </h6>
+            <p>First project with socket.io, used for live chatting</p>
+          </div>
+        </div>
+
+        <div className="project">
+          <div className="content">
+            <h5>
               <a href="https://bookmarks-manager-pkwm.onrender.com/">
                 Bookmarks Manager
               </a>
@@ -20,22 +35,9 @@ export default function Projects() {
                 https://github.com/Martbul/Bookmarks-Manager
               </a>
             </h6>
-            <p>Collector for all bookmarks in social medias and apps a user has</p>
-          </div>
-        </div>
-
-        <div className="project">
-          <div className="content">
-            <h5>
-              <a href="https://chat-app-m-kov.netlify.app/">Chat App</a>
-            </h5>
-            <h6>
-              GitHub reppo:{" "}
-              <a href="https://github.com/Martbul/Chat-App">
-                https://github.com/Martbul/Chat-App
-              </a>
-            </h6>
-            <p>First project with socket.io, used for live chatting</p>
+            <p>
+              Collector for all bookmarks in social medias and apps a user has
+            </p>
           </div>
         </div>
 
